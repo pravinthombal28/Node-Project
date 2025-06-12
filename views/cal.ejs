@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./cal.css"> 
+</head>
+<body>
+    <form action="/save" method="post">
+    <div class="wrapper">
+        <div class="cal">
+            <h1>Bill Calculator</h1>
+        </div>
+        <div class="inputdiv">
+            <input type="text" name="qty" placeholder="Enter the Quantity">
+            <input type="text" name="rate" placeholder="Enter the Rate">
+        </div>
+        <div class="calbill">
+            <input type="submit" value="Calulate Bill">
+        </div>
+        <div class="totalBill">
+            <h1>Total Bill : <%= calBill%> 
+            </h1>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

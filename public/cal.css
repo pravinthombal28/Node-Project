@@ -1,0 +1,51 @@
+form{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 50%;
+    height: 400px;
+    background-color: gray;
+}
+.cal{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputdiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.inputdiv input{
+    width: 45%;
+    height: 40px;
+}
+.calbill{
+    width: 100%;
+    height: 90px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calbill input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+}
+.totalBill{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
