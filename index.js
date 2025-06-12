@@ -9,7 +9,7 @@ app.use(body.urlencoded({extended:true}))
 app.get("/",(req,res)=>{
     res.render("cal.ejs",{calBill:0})
 })
-app.post("/save",(req,res)=>{
+app.post("/save",(req,res) => {
     let {qty,rate}=req.body 
     let b=qty*rate;
     res.render("cal.ejs",{calBill:b});
